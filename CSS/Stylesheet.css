@@ -94,14 +94,15 @@ header {
 }
 .hero-description h3 {
   font-size: 1.2rem;
-  color: #00e4ff;
+  color: rgba(0, 229, 255, 0.5);
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 .hero-description h1 {
   font-size: 2.5rem;
   line-height: 1.2;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1.5px;
 }
 .hero-description h1 .name {
   color: #00e4ff;
@@ -177,8 +178,8 @@ header {
 }
 .social-items a svg {
   fill: #00e4ff;
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 40px;
   padding: 8px;
   border: 1px solid #ffffff33;
   border-radius: 50%;
