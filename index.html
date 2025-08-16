@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon (2).ico" />
+    <title>Chidubem Gideon Maduka - Portfolio</title>
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/Stylesheet.css" />
+    <link rel="stylesheet" href="CSS/Responsiveness.css">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "SDiDuiTt0VbqHlEgH",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <div class="header">
+        <div class="logo">
+          <img src="image/Winner-logo (2).png" alt="Winner-logo-1">
+        </div>
+        <div class="nav">
+          <div class="list-item">
+               <a href="#hero">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#resume">RESUME</a>
+            <a href="#services">SERVICES</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#contact" class="lets-talk">LET'S TALK</a>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-bar" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+</svg>
+        <svg xmlns="http://www.w3.org/2000/svg" id="close-bar" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
+
+      </div>
+    </header>
+    <section id="hero" data-aos="fade-up">
+      <div class="hero-section">
+        <div class="hero-description">
+          <h3>Hello, I’m</h3>
+          <h1><span class="name">Chidubem Maduka</span><br>A Software Developer</h1>
+          <p>
+            I create innovative web applications.
+          </p>
+         
+          <div class="social">
+            <a href="#contact" class="button">GET IN TOUCH</a>
+            <div class="social-items">
+              <a href="https://web.facebook.com/profile.php?id=100090121456942">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/>
+                </svg>
+              </a>
+              <a href="http://instagram.com/gideon_chidubem_">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                </svg>
+              </a>
+              <a href="https://twitter.com/@don_winner25499">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="image/Mobile-hero-img.png" alt="Hero Image">
+        </div>
+         <div class="appointment-stats">
+            <div class="stat">
+              <div class="stat-number">1<span class="stat-suffix">+</span></div>
+              <div class="stat-label">Year of Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">51<span class="stat-suffix">+</span></div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">95<span class="stat-suffix">%</span></div>
+              <div class="stat-label">Client Satisfaction</div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="about" data-aos="fade-up">
+      <div class="about-section">
+        <h2>About Me</h2>
+        <h3>Professional Problem Solutions For Digital Products</h3>
+        <p>
+          I'm Chidubem, a passionate Frontend Developer with over one year of experience building responsive, user-friendly, and visually appealing web applications. I specialize in crafting clean, efficient code using modern technologies like HTML5, CSS, JavaScript, and frameworks such as jQuery and React.
+        </p>
+        <p>
+          My approach blends creativity with technical expertise, ensuring seamless user experiences across devices and platforms. I thrive on turning designs into interactive realities, optimizing performance, and ensuring accessibility standards are met.
+        </p>
+        <ul class="about-services">
+          <li>Web Development</li>
+          <li>Website Hosting</li>
+        </ul>
+      </div>
+    </section>
+    <section id="resume" data-aos="fade-up">
+      <div class="resume-section">
+        <h2>My Resume</h2>
+        <h3>Real Problem Solutions Experience</h3>
+        <div class="resume-timeline">
+          <div class="resume-item">
+            <span class="resume-year">2024 - Present</span>
+            <h4>Frontend Developer</h4>
+            <p>Codemantix Collective</p>
+            <p>Developed responsive web applications using HTML, CSS, JavaScript, and React, focusing on user-friendly interfaces and performance optimization.</p>
+          </div>
+          <div class="resume-item">
+            <span class="resume-year">2023 - 2024</span>
+            <h4>Junior Web Developer</h4>
+            <p>Freelance</p>
+            <p>Built and maintained client websites, implementing modern design trends and ensuring cross-browser compatibility.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" data-aos="fade-up">
+      <div class="services-section">
+        <h2>Popular Services</h2>
+        <h3>My Special Service For Your Business Development</h3>
+        <div class="services-grid">
+          <div class="service-item">
+            <h4>01. Website Development</h4>
+            <p>Building responsive and high-performance websites using HTML, CSS, and JavaScript.</p>
+          </div>
+          <div class="service-item">
+            <h4>02. Website Hosting</h4>
+            <p>Providing reliable hosting solutions to ensure your website is always accessible.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" data-aos="fade-up">
+      <div class="skills-section">
+        <h2>My Skills</h2>
+        <h3>Let’s Explore Popular Skills & Experience</h3>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <h4>HTML</h4>
+            <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+            <span>90%</span>
+          </div>
+          <div class="skill-item">
+            <h4>CSS</h4>
+            <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+            <span>85%</span>
+          </div>
+          <div class="skill-item">
+            <h4>JavaScript</h4>
+            <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+            <span>80%</span>
+          </div>
+          <div class="skill-item">
+            <h4>React</h4>
+            <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+            <span>75%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" data-aos="fade-up">
+      <div class="projects-section">
+        <h2>Latest Works</h2>
+        <h3>Explore My Popular Projects</h3>
+        <div class="project-grid">
+          <div class="project-item" data-aos="fade-up">
+            <img src="image/Mortage img.jpg" alt="Mortgage Calculator">
+            <div>
+              <h4>Mortgage Repayment Calculator</h4>
+            <p>A tool to estimate monthly mortgage payments using HTML, CSS, and JavaScript.</p>
+            <a href="https://don7winner.github.io/Mortgage.com/" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-item" data-aos="fade-up">
+             <div class="project-item-description">
+              <h4>Browser Extension</h4>
+            <p>A productivity tool built with HTML, CSS, and JavaScript for enhanced user experience.</p>
+            <a href="https://don7winner.github.io/Browser-Extention.com/" class="btn">View Project</a>
+            </div>
+            <img src="image/Browser Extension img.jpg" class="right-push" alt="Browser Extension">
+           
+          </div>
+          <div class="project-item" data-aos="fade-up">
+            <img src="image/News HomePage img.jpg" alt="News Homepage">
+            <div>
+              <h4>News Homepage</h4>
+            <p>A dynamic news platform built with HTML, CSS, and JavaScript.</p>
+            <a href="https://don7winner.github.io/News-Homepage/" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-item" data-aos="fade-up">
+             <div class="project-item-description">
+             <h4>Product List with Cart</h4>
+            <p>A responsive e-commerce page built with HTML, CSS, and JavaScript.</p>
+            <a href="https://don7winner.github.io/Product-list.com/" class="btn">View Project</a>
+           </div>
+            <img src="image/Product LIst.jpg" class="right-push" alt="Product List">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" data-aos="fade-up">
+      <div class="testimonials-section">
+        <h2>Testimonial</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-item">
+             <div class="testimonial-image">
+                          <img src="https://i.ibb.co/wZkmQD4j/Codemantix-logo.jpg" alt="Codemantix-logo">
+                           <h3>Codemantix Collective</h3>
+                        </div>
+            <p class="testimonial-text">As the CEO of Codemantix Collective, I am thrilled to endorse Chidubem Gideon Maduka, an exceptionally talented frontend developer I’ve had the privilege of mentoring. Gideon mastery of HTML, CSS, and JavaScript is unparalleled, enabling him to craft responsive, pixel-perfect user interfaces that blend stunning visuals with seamless functionality. His ability to transform complex client requirements into intuitive, high-performance web applications showcases his technical prowess and keen eye for user experience optimization. <br> <br>
+                        Gideon's problem-solving skills and adaptability set him apart. He consistently delivers clean, efficient, and maintainable code under tight deadlines, ensuring cross-browser compatibility and outstanding results. His collaborative spirit shines through in his effective communication with designers, developers, and stakeholders, making him a vital asset to any team. Gideon's proactive approach often leads to innovative solutions that enhance project functionality and client satisfaction. <br> <br>
+                     Having guided many developers, I can confidently say Gideon is among the elite. His dedication, attention to detail, and passion for frontend development make him a top choice for any client seeking exceptional web solutions. For further details about Gideon's contributions, feel free to contact me at codemantixcollective@gmail.com. <br> <br>
+                       </p>
+            <div class="testimonial-author">
+              <img src="image/Codemantix logo.jpg" alt="Codemantix-logo">
+              <h4>Okechukwu Victor</h4>
+              <span>CEO, Codemantix Collective</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" data-aos="fade-up">
+      <div class="pricing-section">
+        <h2>Pricing Package</h2>
+        <h3>Amazing Pricing For Your Projects</h3>
+        <div class="pricing-grid">
+          <div class="pricing-item div1">
+            <h4>Basic Plan</h4>
+            <p class="price">$49<span>/Project</span></p>
+            <p>Ideal for small projects with essential features.</p>
+            <ul>
+              <li>Website Design</li>
+              <li>Basic SEO</li>
+              <li>Custom Support</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Package</a>
+          </div>
+          <div class="pricing-item div2">
+            <h4>Standard Plan</h4>
+            <p class="price">$99<span>/Project</span></p>
+            <p>Perfect for growing businesses needing advanced features.</p>
+            <ul>
+              <li>Website Design & Development</li>
+              <li>Website Hosting</li>
+              <li>Custom Support</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Package</a>
+          </div>
+          <div class="pricing-item div3">
+            <h4>Premium Plan</h4>
+            <p class="price">$149<span>/Project</span></p>
+            <p>Comprehensive solution for large-scale projects.</p>
+            <ul>
+              <li>Full Website Development</li>
+              <li>Website Hosting</li>
+              <li>Advanced SEO</li>
+              <li>Priority Support</li>
+            </ul>
+            <a href="#contact" class="btn">Choose Package</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" data-aos="fade-up">
+      <div class="contact-section">
+        <div class="getin-touch">
+          <h2>Get In Touch</h2>
+          <h3>Let’s Talk For Your Next Projects</h3>
+          <p>Ready to bring your ideas to life? Contact me for top-notch web development services.</p>
+          <form id="contact-form">
+            <div class="form">
+              <div class="name-container">
+                <label for="name">Enter your Name</label>
+                <input type="text" id="name" name="name" placeholder="Name *" required />
+                <span class="error" id="name-error"></span>
+              </div>
+              <div class="email-container">
+                <label for="email">Enter your Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Email *" required />
+                <span class="error" id="email-error"></span>
+              </div>
+            </div>
+            <div class="subject">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject *" required />
+              <span class="error" id="subject-error"></span>
+            </div>
+            <div class="subject">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" placeholder="Message *" required></textarea>
+              <span class="error" id="message-error"></span>
+            </div>
+            <input type="submit" id="submit" value="Send Message" />
+          </form>
+        </div>
+        <div class="contact-details">
+          <h3>Get in touch for more information</h3>
+         
+          <div class="contact-info">
+            <div class="contact-icon">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                  <path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"/>
+                </svg>
+              </div>
+              <div>
+                <p>Phone</p>
+                <span>+23480-2508-7110</span>
+              </div>
+            </div>
+            <div class="contact-icon">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+                </svg>
+              </div>
+              <div>
+                <p>Mail</p>
+                <span>chidubemweb@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-icon">
+              <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/>
+                </svg>
+              </div>
+              <div>
+                <p>Location</p>
+                <span>Nigeria</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="logo-footer">
+          <a href="#"><img src="image/Winner-logo (2).png" alt="Winner-logo-1"></a>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Chidubem Gideon Maduka. All rights reserved.</p>
+        </div>
+        <div class="social">
+          <a href="https://web.facebook.com/profile.php?id=100090121456942">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/>
+            </svg>
+          </a>
+          <a href="http://instagram.com/gideon_chidubem_">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+            </svg>
+          </a>
+          <a href="https://twitter.com/@don_winner25499">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  </body>
+</html>

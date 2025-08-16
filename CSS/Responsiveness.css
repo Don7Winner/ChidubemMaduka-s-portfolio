@@ -1,0 +1,289 @@
+@media (max-width: 1330px){
+  .hero-img{
+    width: 500px;
+  }
+}
+@media (max-width: 1204px){
+.hero-img{
+  width: 400px;
+}
+}
+@media (max-width: 1100px){
+  #hero h1{
+    font-size: 1.5rem;
+  }
+  .stat-number{
+    font-size: 2rem;
+  }
+  #hero .social{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 1007px) {
+  .logo{
+    margin-right: 7rem;
+  }
+    #hero h1{
+    font-size: 2rem;
+  }
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "div1 div3"
+    "div2 div2";
+    padding: 0 1rem;
+  }
+  .hero-img {
+    grid-area: div2;
+    justify-self: center;
+    width: 500px;
+  }
+  .appointment-stats {
+    grid-area: div3;
+    max-width: max-content;
+    justify-self: flex-end;
+  }
+  .social{
+    flex-direction: row;
+    align-items: center;
+  }
+  .project-item img{
+    width: 400px;
+  }
+  .contact-details{
+    flex: 0;
+  }
+}
+@media (max-width: 904px){
+  .pricing-grid{
+    grid-template-areas: 
+    "div1 div2"
+    "div3 div3";
+  }
+  .div1{
+    grid-area: div1;
+  }
+  .div2{
+    grid-area: div2;
+  }
+  .div3{
+    grid-area: div3;
+    width: fit-content;
+    justify-self: center;
+  }
+}
+@media (max-width: 850px){
+  .project-item{
+    gap: 1rem;
+  }
+.project-item img{
+  width: 350px;
+}
+.hero-section{
+  gap: 1rem;
+}
+ .form{
+  flex-direction: column;
+  gap: 1rem;
+}
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #121727;
+    padding: 1rem;
+  }
+  .nav.active {
+    display: block;
+  }
+  .nav a {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+  }
+  #menu-bar {
+    display: block;
+  }
+  #close-bar {
+    display: none;
+  }
+  .list-item{
+    flex-direction: column;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #hero h1{
+    font-size: 2.5rem;
+  }
+  .hero-description{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .hero-img {
+    align-self: center;
+    max-width: 100%;
+    order: 1;
+  }
+  .appointment-stats {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    align-self: flex-start;
+  }
+  .resume-timeline {
+    padding-left: 1.5rem;
+  }
+  .resume-item {
+    padding-left: 1.5rem;
+  }
+  .services-grid, .skills-grid, .project-grid, .project-item {
+    grid-template-columns: 1fr;
+  }
+  .pricing-grid{
+  grid-template-areas: "div1"
+  "div2"
+  "div3";
+  }
+  .div3{
+    width: 100%;
+  }
+  .project-item img{
+    width: 100%;
+  }
+  .project-item-description{
+    order: 1;
+  }
+  .contact-section {
+    flex-direction: column;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .client-logos {
+    justify-content: center;
+  }
+  .footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .copyright{
+    order: 1;
+  }
+}
+@media (max-width: 640px){
+  #hero h1{
+      font-size: 2.2rem;
+  }
+  .hero-img{
+    width: 400px;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 490px){
+    #hero h1, .skills-section h2,.services-section h2, .resume-section h2, .projects-section h2, .testimonials-section h2, .pricing-section h2, .getin-touch h2{
+      font-size: 2rem;
+  }
+  .hero-img{
+    width: 350px;
+  }
+  .about-section h3, .services-section h3, .resume-section h3, .skills-section h3, .projects-section h3, .pricing-section h3, .getin-touch h3{
+    font-size: 1.5rem;
+  }
+.resume-item h4, .project-item h4{
+  font-size: 1.2rem;
+}
+.testimonial-image h3{
+  font-size: 1rem;
+}
+.testimonial-image{
+  flex-direction: column;
+}
+.testimonial-image h3, .testimonial-image img{
+  align-self: center;
+}
+.about-section p{
+  font-size: 1rem;
+}
+}
+@media (max-width: 420px){
+    .hero-img{
+    width: 300px;
+  }
+  .hero-description h3{
+    text-align: left;
+  }
+  .hero-description, .service-item{
+    text-align: center;
+  }
+  #hero .social{
+    align-items: center;
+  }
+  .appointment-stats{
+    align-items: center;
+  }
+  .about-section{
+    text-align: center;
+  }
+  .about-services{
+    justify-content: center;
+  }
+  .project-item img{
+    height: 200px;
+  }
+  .pricing-section{
+    text-align: center;
+  }
+  .resume-section h2, .resume-section h3{
+    text-align: center;
+  }
+  .services-section h2, .services-section h3{
+    text-align: center;
+  }
+  .skills-section h2, .skills-section h3, .projects-section, .testimonials-section h2 {
+    text-align: center;
+  }
+  .project-item .btn{
+    width: 100%;
+  }
+  .footer{
+    align-items: center;
+  }
+  .testimonial-item, .pricing-item {
+    padding: 2rem 1rem;
+  }
+  #testimonials{
+    padding: 80px 1rem;
+  }
+  }
+  @media (max-width: 375px){
+    #hero h1, .skills-section h2,.services-section h2, .resume-section h2, .projects-section h2, .testimonials-section h2, .pricing-section h2, .getin-touch h2{
+      font-size: 1.5rem;
+  }
+  .hero-img{
+    width: 250px;
+  }
+  .about-section h3, .services-section h3, .resume-section h3, .skills-section h3, .projects-section h3, .pricing-section h3, .getin-touch h3{
+    font-size: 1.2rem;
+  }
+.resume-item h4, .project-item h4{
+  font-size: 1rem;
+}
+}
